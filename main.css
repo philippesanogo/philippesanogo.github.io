@@ -68,7 +68,7 @@ body {
     margin-top: 10%;
 }
 
-.devant .bouton {
+.devant .boutonD {
     padding: 3px 5px;
     border-radius: 15px;
     border-color: rgba(255, 255, 255, 0.267);
@@ -146,3 +146,9 @@ body {
     color: #ffffff;
 }
 
+.derriere .conseil {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: 0.7rem;
+    font-style: italic;
+    margin: 15% auto 0;
+}
