@@ -101,10 +101,19 @@ body {
     font-size: 1rem;
 }
 
+.derriere .tel a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.derriere .tel a:hover {
+    font-size: 1.2rem;
+}
+
 .derriere .mail {
     text-align: center;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .derriere .mail a {
@@ -113,5 +122,5 @@ body {
 }
 
 .derriere .mail a:hover {
-    color: #17141D;
+    font-size: 1rem;
 }
