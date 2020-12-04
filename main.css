@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #17141D;
+}
+
+.container {
+    position: absolute;
+    width: 300px;
+    height: 384px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.laCarte {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.laCarte:hover {
+    transform: rotateY(180deg);
+}
+
+.devant {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(232,56,101);
+    background: linear-gradient(321deg, rgba(232,56,101,1) 0%, rgba(247,109,34,1) 100%);
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 5px 50px 30px;
+}
+
+.laCarte .devant .photo {
+    margin-top: 10%;
+}
+
+.laCarte .devant .photo img {
+    height: 200px;
+    border-radius: 5px 50px 30px;
+    box-shadow: 0.5px 0.5px 7px rgba(23, 20, 29, 0.3);
+}
+
+.laCarte .devant .identite h1 {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.laCarte .devant .metier h2 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: serif;
+}
+
+.laCarte .devant .identite {
+    margin-top: 10%;
+}
+
+.derriere {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #17141D;
+    backface-visibility: hidden;
+    background: rgb(232,56,101);
+    background: linear-gradient(121deg, rgba(232,56,101,1) 0%, rgba(247,109,34,1) 100%);
+    border-radius: 5px 50px 30px;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.derriere .intro {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.derriere .offre {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.derriere .tel {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.derriere .mail {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.derriere .mail a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.derriere .mail a:hover {
+    color: #17141D;
+}
