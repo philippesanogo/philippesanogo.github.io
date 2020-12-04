@@ -68,6 +68,16 @@ body {
     margin-top: 10%;
 }
 
+.devant .bouton {
+    padding: 3px 5px;
+    border-radius: 15px;
+    border-color: rgba(255, 255, 255, 0.267);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 0.6rem;
+    margin-top: 10%;
+}
+
 .derriere {
     position: absolute;
     width: 100%;
@@ -95,8 +105,21 @@ body {
     font-size: 1rem;
 }
 
-.derriere .tel {
+.derriere .contact {
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+.derriere .contact p.merci {
     text-align: center;
+    color: #fff;
+    padding-bottom: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+}
+
+.derriere .tel {
+    /* text-align: center; */
     color: #ffffff;
     font-size: 1rem;
 }
@@ -106,14 +129,12 @@ body {
     color: #ffffff;
 }
 
-.derriere .tel a:hover {
-    font-size: 1.2rem;
-}
+
 
 .derriere .mail {
-    text-align: center;
+    /* text-align: center; */
     color: #ffffff;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .derriere .mail a {
@@ -121,6 +142,3 @@ body {
     color: #ffffff;
 }
 
-.derriere .mail a:hover {
-    font-size: 1rem;
-}
