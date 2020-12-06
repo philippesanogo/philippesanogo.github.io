@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    background: #17141D;
+    background: #201c29;
 }
 
 .container {
@@ -41,10 +41,14 @@ body {
     text-align: center;
     font-family: sans-serif;
     border-radius: 5px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .laCarte .devant .photo {
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 .laCarte .devant .photo img {
@@ -65,7 +69,7 @@ body {
 }
 
 .laCarte .devant .identite {
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 .devant .boutonD {
@@ -75,7 +79,7 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgba(255, 255, 255, 0.637);
     font-size: 0.6rem;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 .derriere {
@@ -90,42 +94,28 @@ body {
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.derriere .intro {
-    text-align: center;
-    color: #ffffff;
-    font-size: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .derriere .offre {
-    text-align: center;
     color: #ffffff;
-    font-size: 1rem;
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
-    /* margin-bottom: 10%; */
-
+    font-size: 0.7rem;
 }
 
 .derriere .contact {
     margin: 0 auto;
-    line-height: 1.5rem;
+    line-height: 1rem;
 }
 
 .derriere .contact p.merci {
-    text-align: center;
     color: #fff;
-    padding-top: 10px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: 0.7rem;
 }
 
 .derriere .tel {
-    /* text-align: center; */
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .derriere .tel a {
@@ -133,12 +123,9 @@ body {
     color: #ffffff;
 }
 
-
-
 .derriere .mail {
-    /* text-align: center; */
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .derriere .mail a {
@@ -148,7 +135,6 @@ body {
 
 .derriere .conseil {
     color: rgba(255, 255, 255, 0.555);
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-style: italic;
-    margin: 15% auto 0;
 }
