@@ -47,10 +47,6 @@ body {
     align-items: center;
 }
 
-.laCarte .devant .photo {
-    /* margin-top: 10%; */
-}
-
 .laCarte .devant .photo img {
     height: 200px;
     border-radius: 5px 50px 30px;
@@ -66,10 +62,6 @@ body {
     color: #ffffff;
     font-size: 1rem;
     font-family: serif;
-}
-
-.laCarte .devant .identite {
-    /* margin-top: 10%; */
 }
 
 .devant .boutonD {
@@ -100,22 +92,23 @@ body {
 
 .derriere .offre {
     color: #ffffff;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 .derriere .contact {
     margin: 0 auto;
-    line-height: 1rem;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
 }
 
 .derriere .contact p.merci {
     color: #fff;
-    font-size: 0.7rem;
+    /* font-size: 0.7rem; */
 }
 
 .derriere .tel {
     color: #ffffff;
-    font-size: 0.7rem;
+    /* font-size: 0.7rem; */
 }
 
 .derriere .tel a {
@@ -125,7 +118,7 @@ body {
 
 .derriere .mail {
     color: #ffffff;
-    font-size: 0.7rem;
+    /* font-size: 0.7rem; */
 }
 
 .derriere .mail a {
@@ -134,7 +127,7 @@ body {
 }
 
 .derriere .conseil {
-    color: rgba(255, 255, 255, 0.555);
+    color: rgba(255, 255, 255, 0.7);
     font-size: 0.5rem;
     font-style: italic;
 }
